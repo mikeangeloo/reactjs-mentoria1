@@ -1,0 +1,74 @@
+.profile-card {
+  width: 300px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 20px auto;
+  background-color: whitesmoke;
+}
+
+.profile-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.profile-card .name {
+  font-size: 1.2em;
+  margin: 10px 0;
+  font-weight: bold;
+  color: cornflowerblue;
+}
+
+.profile-card .date {
+  color: #777;
+  font-size: 0.9em;
+}
+
+.profile-card .description {
+  padding: 0 20px;
+  margin: 10px 0;
+  font-size: 0.9em;
+  color: #555;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+/* Back Button styles */
+.back-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin: 0 auto;
+}
+
+.button-link:hover {
+  background-color: white;
+  transform: translateY(-2px);
+}
+
+.button-link:active {
+  background-color: #003f7f;
+  transform: translateY(0);
+}

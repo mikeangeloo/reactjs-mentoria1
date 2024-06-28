@@ -1,3 +1,7 @@
+.table-header {
+  display: flex;
+  justify-content: space-between;
+}
 .table-container {
   width: 90%;
   margin: 0 auto;
@@ -22,6 +26,10 @@ table tr {
   background-color: #f8f8f8;
   border: 1px solid #ddd;
   padding: 0.35em;
+}
+
+table a {
+  display: contents;
 }
 
 table th,
